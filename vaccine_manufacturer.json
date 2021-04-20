@@ -1,0 +1,51 @@
+[
+        {
+            "vaccine_manufacturer_id": 1,
+            "vaccine_manufacturer_name": "AstraZeneca",
+            "total_plan_count": 2,
+            "max_interval_date": 30,
+            "is_active": "Y"
+        },
+        {
+            "vaccine_manufacturer_id": 2,
+            "vaccine_manufacturer_name": "Novavax",
+            "total_plan_count": 2,
+            "max_interval_date": null,
+            "is_active": null
+        },
+        {
+            "vaccine_manufacturer_id": 3,
+            "vaccine_manufacturer_name": "Johnson & Johnson",
+            "total_plan_count": 1,
+            "max_interval_date": null,
+            "is_active": null
+        },
+        {
+            "vaccine_manufacturer_id": 4,
+            "vaccine_manufacturer_name": "Sanofi, GlaxoSmithKline",
+            "total_plan_count": 2,
+            "max_interval_date": null,
+            "is_active": null
+        },
+        {
+            "vaccine_manufacturer_id": 5,
+            "vaccine_manufacturer_name": "Moderna",
+            "total_plan_count": 2,
+            "max_interval_date": null,
+            "is_active": null
+        },
+        {
+            "vaccine_manufacturer_id": 6,
+            "vaccine_manufacturer_name": "Pfizer, BioNTech",
+            "total_plan_count": 2,
+            "max_interval_date": null,
+            "is_active": null
+        },
+        {
+            "vaccine_manufacturer_id": 7,
+            "vaccine_manufacturer_name": "Sinovac Life Sciences",
+            "total_plan_count": 2,
+            "max_interval_date": 30,
+            "is_active": "Y"
+        }
+		]

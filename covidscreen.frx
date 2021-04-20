@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/17/2021 13:06:25" ReportInfo.Modified="04/18/2021 10:28:32" ReportInfo.CreatorVersion="2017.1.5.0">
+  <Dictionary/>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="103.95">
+      <TextObject Name="Text1" Left="9.45" Top="9.45" Width="699.3" Height="94.5" Text="แบบฟอร์มในการขอ Code ก่อนทำ TS&#13;&#10;กลุ่มงานการพยาบาลผู้ป่วยนอก โรงพยาบาลศรีสะเกษ&#13;&#10;ห้องตรวจ PUI (โทร 1919)" HorzAlign="Center" Font="TH Sarabun New, 18pt, style=Bold"/>
+      <BarcodeObject Name="BarcodeHN" Left="548.1" Top="66.15" Width="147.5" Height="37.8" Text="000000000" ShowText="false" Barcode="Code93"/>
+      <TextObject Name="Text15" Left="-9450" Top="-9450" Width="47.25" Height="28.35" Text="อาชีพ" Font="TH Sarabun New, 16pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="106.65" Width="718.2" Height="752.55">
+      <TextObject Name="Text2" Width="113.4" Height="28.35" Text="ชื่อ - สกุล ผู้ป่วย" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtFullname" Left="103.95" Width="292.95" Height="28.35" Text="ชื่อ - สกุล ผู้ป่วย" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text4" Left="396.9" Width="37.8" Height="28.35" Text="อายุ" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtAge" Left="434.7" Width="37.8" Height="28.35" Text="อายุ" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text6" Left="491.4" Width="37.8" Height="28.35" Text="HN" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtHn" Left="519.75" Width="189" Height="28.35" Text="HN" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text8" Top="28.35" Width="160.65" Height="28.35" Text="เลขที่บัตรประชาชน" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtCid" Left="122.85" Top="28.35" Width="236.25" Height="28.35" Text="เลขที่บัตรประชาชน" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text10" Left="359.1" Top="28.35" Width="103.95" Height="28.35" Text="สิทธิ์การรักษา" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtPtClass" Left="453.6" Top="28.35" Width="255.15" Height="28.35" Text="สิทธิ์การรักษา" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text12" Top="56.7" Width="47.25" Height="28.35" Text="โทร" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtPhone" Left="37.8" Top="56.7" Width="179.55" Height="28.35" Text="โทร" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text14" Left="264.6" Top="56.7" Width="47.25" Height="28.35" Text="อาชีพ" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtOcc" Left="311.85" Top="56.7" Width="396.9" Height="28.35" Text="อาชีพ" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text17" Top="85.05" Width="47.25" Height="28.35" Text="ที่อยู่" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtAddress" Left="37.8" Top="85.05" Width="670.95" Height="28.35" Text="ที่อยู่" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="Text19" Top="113.4" Width="708.75" Height="28.35" Text="DX : " Font="TH Sarabun New, 16pt"/>
+      <LineObject Name="Line1" Left="28.35" Top="141.75" Width="670.95"/>
+      <TextObject Name="Text20" Top="141.75" Width="94.5" Height="28.35" Text="Set OR : " Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="Text21" Left="321.3" Top="141.75" Width="94.5" Height="28.35" Text="วันที่ : " Font="TH Sarabun New, 16pt"/>
+      <LineObject Name="Line2" Left="56.7" Top="170.1" Width="264.6"/>
+      <LineObject Name="Line3" Left="368.55" Top="170.1" Width="330.75"/>
+      <TextObject Name="Text22" Top="170.1" Width="207.9" Height="28.35" Text="ประวัติเสี่ยง คนไข้ PUI, อื่นๆ : " Font="TH Sarabun New, 16pt"/>
+      <LineObject Name="Line4" Top="226.8" Width="699.3"/>
+      <LineObject Name="Line5" Top="264.6" Width="699.3"/>
+      <LineObject Name="Line6" Top="302.4" Width="699.3"/>
+      <LineObject Name="Line7" Top="340.2" Width="699.3"/>
+      <TextObject Name="Text23" Top="359.1" Width="56.7" Height="28.35" Text="แพทย์" Font="TH Sarabun New, 16pt"/>
+      <LineObject Name="Line8" Left="47.25" Top="387.45" Width="189"/>
+      <TextObject Name="Text24" Top="198.45" Width="283.5" Height="28.35" Text="เดิมทางกลับมาจากจังหวัด/ประเทศ กลุ่มเสี่ยง" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="Text25" Top="236.25" Width="189" Height="28.35" Text="สัมผัสผู้ป่วยยืนยันติดเชื้อ/เสี่ยงสูง" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="txtTouchRick" Left="189" Top="236.25" Width="510.3" Height="28.35" Text="สัมผัสผู้ป่วยยืนยันติดเชื้อ/เสี่ยงสูง" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <TextObject Name="txtMovefrom" Left="274.05" Top="198.45" Width="425.25" Height="28.35" Text="สัมผัสผู้ป่วยยืนยันติดเชื้อ/เสี่ยงสูง" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <ShapeObject Name="Shape1" Left="500.85" Top="349.65" Width="198.45" Height="37.8" Shape="RoundRectangle"/>
+      <TextObject Name="Text5" Left="508.3" Top="355.1" Width="94.5" Height="18.9" Text="CODE :" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <CheckBoxObject Name="CheckBox1" Top="434.7" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text26" Left="28.35" Top="431.7" Width="311.85" Height="28.35" Text="ไอ" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox2" Left="359.1" Top="437.7" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text27" Left="387.45" Top="434.7" Width="151.2" Height="28.35" Text="เจ็บคอ มีน้ำมูก" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox3" Top="466.05" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text28" Left="28.35" Top="463.05" Width="141.75" Height="28.35" Text="จมูกไม่ได้กลิ่น" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox4" Left="359.1" Top="469.05" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text29" Left="387.45" Top="466.05" Width="103.95" Height="28.35" Text="ลิ้นไม่รับรส" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox5" Top="494.4" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text30" Left="28.35" Top="491.4" Width="264.6" Height="28.35" Text="หายใจเร็ว/หายใจเหนื่อย/หายใจลำบาก" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox6" Left="359.1" Top="497.4" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text31" Left="387.45" Top="494.4" Width="321.3" Height="28.35" Text="ประวัติมีไข้ หรือ อุณหภูมิกายตั้งแต่ 37.5 ◦C ขึ้นไป" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox7" Top="522.75" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text32" Left="28.35" Top="519.75" Width="56.7" Height="28.35" Text="ตาแดง" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox8" Left="359.1" Top="525.75" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text33" Left="387.45" Top="522.75" Width="94.5" Height="28.35" Text="มีผื่นคัน" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="Text34" Left="9.45" Top="406.35" Width="75.6" Height="28.35" Text="มีอาการ" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <CheckBoxObject Name="CheckBox9" Top="579.45" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text35" Left="28.35" Top="576.45" Width="321.3" Height="85.05" Text="อยู่อาศัยหรือเดินทางจากประเทศ/จังหวัดที่เป็นพื้นที่เสี่ยงการระบาดของ COVID-19 ตามประกาศของ สสจ.ศรีสะเกษ ภายใน 14 วัน" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox10" Left="359.1" Top="573" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text36" Left="387.45" Top="570" Width="330.75" Height="75.6" Text="ไปสถานที่เสี่ยงในวันและเวลาตามประกาศของศูนย์บริหารสถานการณ์การแพร่ระบาด COVID-19 จ.ศรีสะเกษ" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox11" Top="658.05" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text37" Left="28.35" Top="655.05" Width="330.75" Height="28.35" Text="เป็นผู้สัมผัสกับผู้ป่วยยืนยันหรือสงสัยติดเชื้อ COVID-19" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox12" Left="359.1" Top="651.6" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text38" Left="387.45" Top="648.6" Width="330.75" Height="47.25" Text="ปฎิบัติหน้าที่ในสถานบริการสาธารณสุข โดยพิจารณาตามความเหมาะสม" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox13" Top="686.4" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text39" Left="28.35" Top="683.4" Width="189" Height="28.35" Text="ปฏิบัติงานในสถานกักกันโรค" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox14" Left="359.1" Top="698.85" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text40" Left="387.45" Top="695.85" Width="330.75" Height="56.7" Text="มีอาการติดเชื้อทางเดินหายใจเป็นกลุ่มก้อน 5 รายขึ้นไปในสถานที่เดียวกัน โดยเชื่อมโยงทางระบาดวิทยา" Font="TH Sarabun New, 16pt"/>
+      <CheckBoxObject Name="CheckBox15" Top="724.2" Width="18.9" Height="18.9" Border.Lines="All"/>
+      <TextObject Name="Text41" Left="28.35" Top="721.2" Width="283.5" Height="28.35" Text="แพทย์ผู้ตรวจสงสัยว่าเป็น COVID-19" Font="TH Sarabun New, 16pt"/>
+      <TextObject Name="Text43" Left="9.45" Top="548.1" Width="189" Height="28.35" Text="ประวัติเสี่ยงภายใน 14 วัน" Font="TH Sarabun New, 16pt, style=Bold"/>
+      <LineObject Name="Line9" Top="396.9" Width="718.2" Border.Style="Dash"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="861.91" Width="718.2" Height="28.35">
+      <TextObject Name="Text3" Left="472.5" Width="245.7" Height="28.35" Text="[Date]" Format="Date" Format.Format="F" HorzAlign="Right" Font="TH Sarabun New, 16pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
